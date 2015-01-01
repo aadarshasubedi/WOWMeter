@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
+RewriteRule \.(gif|jpe?g|png|bmp) /var/customers/webs/ni218283_1/images/flags/unknown.gif [NC,L]
+
+
+<IfModule mod_headers.c>
+    <FilesMatch "\.(gif)$">
+        Header set Cache-Control "max-age=29030400, public"
+    </FilesMatch>
+</IfModule>
