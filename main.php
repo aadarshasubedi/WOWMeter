@@ -1,7 +1,11 @@
+<a href="https://github.com/MarioErmando/WOWMeter"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/52760788cde945287fbb584134c4cbc2bc36f904/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"></a>
 <div id="fb-root"></div>
 <div class="social">
 	<span>Show your love for WOWMeter!</span>
 	<div class="fb-like" data-href="https://facebook.com/WOWMeter" data-width="5" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+</div>
+<?php if($maintenance != "")echo "<h3>maintenance mode on</h3>"; ?><div class="box small no-title headline" style="padding: 5px;display: block">
+		<strong>1st January 2015:</strong> <a href="https://github.com/MarioErmando/WOWMeter">WOWMeter is now open-source!</a><br>
 </div>
 <?php if($noprofile_n_shit != 1){
 		require_once($_SERVER['DOCUMENT_ROOT']."/geoip/geoipregionvars.php");
