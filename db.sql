@@ -23,10 +23,10 @@ CREATE TABLE `users` (
   `usrname_color` varchar(6) NOT NULL DEFAULT 'ffffff',
   `bg_color` varchar(10) NOT NULL DEFAULT 'orange',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1580 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
 
 INSERT INTO `users` (`id`, `username`, `password`, `email`, `ip`, `regdate`, `isbanned`, `oldusrname`, `sig_bg`, `sig_font`, `usrname_color`, `bg_color`) VALUES
-(1, 'admin', '89aa27ef628f1a4228a80e291ebb983a6d5c250251064237de45183cf4073bda', 'admin@site.com', '62.235.240.82', '2015-01-01 00:00:00', 0, '', 1, 2, 'ffffff', 'orange');
+(1, 'admin', '89aa27ef628f1a4228a80e291ebb983a6d5c250251064237de45183cf4073bda', 'admin@site.com', '192.168.0.1', '2015-01-01 00:00:00', 0, '', 1, 2, 'ffffff', 'orange');
 
 CREATE TABLE `wow` (
   `wow_id` int(45) NOT NULL AUTO_INCREMENT,
@@ -35,10 +35,10 @@ CREATE TABLE `wow` (
   `wow_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `wow_ref` varchar(500) DEFAULT NULL,
   PRIMARY KEY (`wow_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=65325 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
 
 INSERT INTO `wow` (`wow_id`, `wow_to`, `wow_from`, `wow_date`, `wow_ref`) VALUES
-(1, 1, '62.235.240.82', '2015-01-01 00:00:00', '');
+(1, 1, '192.168.0.1', '2015-01-01 00:00:00', '');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
