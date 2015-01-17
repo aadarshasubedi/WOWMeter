@@ -6,6 +6,7 @@
 </div>
 <?php if($maintenance != "")echo "<h3>maintenance mode on</h3>"; ?><div class="box small no-title headline" style="padding: 5px;display: block">
 		<strong>1st January 2015:</strong> <a href="https://github.com/MarioErmando/WOWMeter">WOWMeter is now open-source!</a><br>
+		WOWMeter is turning 1 year old on 29th March 2015
 </div>
 <?php if($noprofile_n_shit != 1){
 		require_once($_SERVER['DOCUMENT_ROOT']."/geoip/geoipregionvars.php");
